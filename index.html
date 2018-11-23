@@ -84,12 +84,16 @@
 
     texts.append("text")
       .attr("class", "quote_text")
-      .text(function(d) { return d.quote; })
+      .text(function(d) { return d.definition; })
 
     texts.append("text")
       .attr("class", "quote_source")
-      .text(function(d) { return " " + d.name; })
+      .text(function(d) { return " " + d.source; })
 
+     texts.append("text")
+      .attr("class", "quote_source")
+      .text(function(d) { return " " + d.url; })
+    
   });
 
   function randomDraw(random) {
