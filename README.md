@@ -1,3 +1,3 @@
 # README
 
-Code repository for [whatisdigitalhumanities.com](http://whatisdigitalhumanities.com).
+Code repository for [whatisdata.info](http://whatisdata.info.).
